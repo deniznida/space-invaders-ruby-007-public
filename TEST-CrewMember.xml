@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="3" errors="0" failures="2" time="0.006" timestamp="2015-03-18T17:45:03">
+		<testcase classname="CrewMember" name="should know their position" time="0.002">
+		</testcase>
+		<testcase classname="CrewMember" name="should should return &amp;quot;Looking for a Rig&amp;quot; if they aren&amp;apos;t assigned to a ship" time="0.002">
+			<failure type="toBe" message="Expected undefined to be &amp;apos;Looking for a Rig&amp;apos;.">
+	at stack (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:442:41)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1209:32
+	at file:///Users/deniznida/Documents/FIS/space-invaders-ruby-007/spec/space-invaders-spec.js:16:37
+	at attemptSync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:506:11)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1694:21)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1694:21)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="CrewMember" name="should return &amp;quot;had no effect&amp;quot; when the crew member tries to use their special ability" time="0.001">
+			<failure type="toBe" message="Expected undefined to be &amp;apos;had no effect&amp;apos;.">
+	at stack (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:442:41)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1209:32
+	at file:///Users/deniznida/Documents/FIS/space-invaders-ruby-007/spec/space-invaders-spec.js:20:43
+	at attemptSync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:506:11)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:506:11)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1694:21)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1694:21)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/boot.js:172:16)			</failure>
+			<failure type="" message="TypeError: undefined is not a constructor (evaluating &amp;apos;jon.setsInvisibility()&amp;apos;) in file:///Users/deniznida/Documents/FIS/space-invaders-ruby-007/spec/space-invaders-spec.js (line 21)">
+	at file:///Users/deniznida/Documents/FIS/space-invaders-ruby-007/spec/space-invaders-spec.js:21:32
+	at attemptSync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:506:11)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:506:11)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:306:28)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1694:21)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1694:21)
+	at file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/deniznida/.rvm/gems/ruby-2.2.0-preview1/gems/ironboard-0.0.5/lib/ironboard/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>
+
